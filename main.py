@@ -9,7 +9,7 @@ app.debug=True
 
 @app.route("/")
 def init():
-    ip = request.remote_addr
+    ip = request.environ['REMOTE_ADDR']
     return ip
     
     
