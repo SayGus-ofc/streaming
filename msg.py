@@ -4,6 +4,7 @@ from random import randint
 config = {
   "apiKey": "AIzaSyCyVLdJXk0ioOEYd28lD0-hspmZNUdhHbI",
   "authDomain": "fir-e65af.firebaseapp.com",
+  "databaseURL": "https://fir-e65af-default-rtdb.firebaseio.com",
   "projectId": "fir-e65af",
   "storageBucket": "fir-e65af.appspot.com",
   "messagingSenderId": "216052591088",
