@@ -2,14 +2,12 @@ import pyrebase
 from random import randint
 
 config = {
-    "apiKey": "AIzaSyAmay8dzxWVYh8JfCwuLtWBRf0bSeJjfjw",
-  "authDomain": "login-6bd82.firebaseapp.com",
-  "databaseURL": "https://login-6bd82.firebaseio.com",
-  "projectId": "login-6bd82",
-  "storageBucket": "login-6bd82.appspot.com",
-  "messagingSenderId": "1050895485889",
-  "appId": "1:1050895485889:web:96246e5052925037f8fd40",
-  "measurementId": "G-T7DDQT8QH6"}
+  "authDomain": "fir-e65af.firebaseapp.com",
+  "projectId": "fir-e65af",
+  "storageBucket": "fir-e65af.appspot.com",
+  "messagingSenderId": "216052591088",
+  "appId": "1:216052591088:web:f3b865fb51ec77d2eb9535"
+};
 
 f = pyrebase.initialize_app(config)
 db = f.database()
