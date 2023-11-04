@@ -8,7 +8,7 @@ config = {
   "storageBucket": "fir-e65af.appspot.com",
   "messagingSenderId": "216052591088",
   "appId": "1:216052591088:web:f3b865fb51ec77d2eb9535"
-};
+}
 
 f = pyrebase.initialize_app(config)
 db = f.database()
