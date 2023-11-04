@@ -2,6 +2,7 @@ import pyrebase
 from random import randint
 
 config = {
+  "apiKey": "AIzaSyCyVLdJXk0ioOEYd28lD0-hspmZNUdhHbI",
   "authDomain": "fir-e65af.firebaseapp.com",
   "projectId": "fir-e65af",
   "storageBucket": "fir-e65af.appspot.com",
